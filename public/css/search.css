@@ -1,0 +1,272 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 390px;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #E4D8CF;
+  position: fixed;
+  z-index: 2;
+}
+header .logo {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+header .logo h1 {
+  font-family: serif;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: #fff;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 40px;
+}
+header .logo figure {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+header .logo figure img {
+  width: 100%;
+  height: 100%;
+}
+header .logo .bArrow {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 20px;
+}
+header .logo .bArrow img {
+  width: 100%;
+  height: 100%;
+}
+header .search {
+  width: 350px;
+  height: 30px;
+  margin: 15px auto 15px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+  background-image: url(/img/lens.png);
+  background-position: 5% 50%;
+  background-repeat: no-repeat;
+}
+header [type=search] {
+  margin: 0 auto;
+  width: 320px;
+  height: 30px;
+  text-align: left;
+  padding-left: 30px;
+  line-height: 20px;
+}
+header :-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+header ::placeholder {
+  font-size: 1.5rem;
+}
+
+main {
+  width: 100%;
+  height: 930px;
+}
+
+.feature {
+  padding-top: 130px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+}
+.feature .priceFilter {
+  width: 80%;
+  display: flex;
+}
+.feature .priceFilter label {
+  background: #EAE6E6;
+  width: 60px;
+  height: 25px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  line-height: 25px;
+}
+.feature .priceFilter .min {
+  margin-left: 10px;
+}
+.feature .priceFilter .max {
+  margin-left: 180px;
+}
+.feature .sort {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.feature .sort img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+}
+.content h1 {
+  margin: 40px 0 0 20px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.content #itemList {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.content #itemList .box {
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+}
+.content #itemList .box figure {
+  width: 100px;
+  height: 75px;
+  margin: 0 auto;
+}
+.content #itemList .box figure img {
+  width: 100%;
+  height: 100%;
+}
+.content #itemList .box h2 {
+  font-size: 1rem;
+  font-weight: lighter;
+  transform: scale(0.8);
+  text-align: left;
+}
+.content #itemList .box h3 {
+  transform: scale(0.8);
+}
+.content #itemList .box h3 span {
+  padding-left: 10px;
+  font-weight: lighter;
+}
+.content .border {
+  width: 100%;
+  height: 10px;
+  margin-top: 30px;
+  border-top: 1px solid #707070;
+  opacity: 0.5;
+}
+
+.contain {
+  width: 100%;
+  height: auto;
+}
+.contain h1 {
+  margin: 20px 0 0 20px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.contain #itemList {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contain #itemList .box {
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+}
+.contain #itemList .box figure {
+  width: 100px;
+  height: 75px;
+  margin: 0 auto;
+}
+.contain #itemList .box figure img {
+  width: 100%;
+  height: 100%;
+}
+.contain #itemList .box h2 {
+  font-size: 1rem;
+  font-weight: lighter;
+  transform: scale(0.8);
+  text-align: left;
+}
+.contain #itemList .box h3 {
+  transform: scale(0.8);
+}
+.contain #itemList .box h3 span {
+  padding-left: 10px;
+  font-weight: lighter;
+}
+.contain .border {
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #707070;
+  opacity: 0.5;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #CDB5AB;
+}
+footer div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div .icon {
+  width: 35px;
+  height: 35px;
+  stroke: #fff;
+  fill: #fff;
+}
+footer div .icon img {
+  width: 100%;
+  height: 100%;
+}
+footer div .home {
+  width: 50px;
+  height: 50px;
+}
+footer div .home img {
+  width: 100%;
+  height: 100%;
+}
+footer div .bookmark {
+  margin-right: 50px;
+}
+footer div .account {
+  margin-left: 50px;
+}
+footer .boxs {
+  width: 90px;
+  height: 90px;
+  background: #EAE6E6;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+}

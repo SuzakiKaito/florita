@@ -1,0 +1,194 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 390px;
+  font-family: "A P-OTF Bunkyu MidasiM StdN";
+}
+
+header {
+  background-color: #EAE6E6;
+  width: 100%;
+  height: 400px;
+}
+header .header_top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+header .header_top figure {
+  width: 300px;
+  height: 190px;
+  text-align: center;
+}
+header .header_top figure img {
+  width: 100%;
+  height: 100%;
+}
+header .app_text {
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  display: inline-block;
+  padding-top: 30px;
+  line-height: 24px; /* 240% */
+}
+header .app {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+main {
+  width: 390px;
+  height: auto;
+}
+
+.content {
+  width: 100%;
+  height: 2230px;
+  background: #E4D7CF;
+  position: relative;
+}
+.content .box .abs {
+  width: 100%;
+  position: absolute;
+  top: -80px;
+  z-index: 10;
+}
+.content .box .flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 140px;
+}
+.content .box p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.point {
+  width: 330px;
+  height: 420px;
+  background: #EAE6E6;
+  border-radius: 35px;
+  margin: 80px auto 0;
+  position: relative;
+}
+.point img {
+  position: absolute;
+  top: -60px;
+  left: -30px;
+}
+.point h4 {
+  text-align: center;
+  font-size: 1.4rem;
+  height: 20px;
+  padding-top: 50px;
+}
+.point .wave {
+  width: 220px;
+  height: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.point .wave img {
+  width: 220px;
+  height: 10px;
+  position: absolute;
+  top: 18px;
+  left: 5px;
+}
+.point p {
+  width: 350px;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 5px;
+  font-size: 10px;
+  transform: scale(0.8);
+}
+
+.while {
+  margin-top: 100px;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.text h3 {
+  font-size: 1.6rem;
+}
+.text h4 {
+  font-size: 1rem;
+}
+
+.woman {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  margin-top: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background: #EAE6E6;
+}
+footer .row {
+  width: 310px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+footer .row .column {
+  width: 220px;
+  height: 80px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .row .column p span {
+  font-weight: bold;
+}
+footer .row .column .rows {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .flex p {
+  width: 50px;
+  font-size: 1rem;
+  transform: scale(0.5);
+  margin-top: 40px;
+}
+footer .flex .copy {
+  transform: scale(0.9);
+}/*# sourceMappingURL=index.css.map */

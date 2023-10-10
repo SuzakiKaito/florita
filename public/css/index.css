@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppin", sans-serif;
+}
+
+body {
+  width: 390px;
+  height: auto;
+}
+
+.header {
+  background-color: #818696;
+  height: 90px;
+}
+.header .logo p {
+  color: #FFF;
+}
+.header .main-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.header .header-search p {
+  margin-top: 5px;
+  font-size: 10px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  color: #aaaaaa;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+.header .header-search .a {
+  border: none;
+  width: 200px;
+}
+
+.main-img {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.main-img img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.main-text {
+  width: 100%;
+  padding: 10px;
+}
+.main-text h3 {
+  margin-left: 10px;
+}
+.main-text .sub-text {
+  color: #606060;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 0.8em;
+  margin-right: 10px;
+  line-height: 1.7em;
+}
+.main-text .color h4 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.main-text .color ul {
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+.main-text .color ul li {
+  background-color: #606060;
+  margin-top: 10px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  margin-left: 10px;
+  list-style: none;
+}
+.main-text .color ul .pink {
+  background: #818696;
+}
+.main-text .color ul .red {
+  background: #526E93;
+}
+.main-text .color ul .black {
+  background: #414141;
+}
+.main-text .size h4 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.main-text .size ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 50px;
+}
+.main-text .size ul li {
+  margin-top: 10px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  border: 1px solid #CDB5AB;
+  list-style: none;
+  border-radius: 50%;
+}
+
+.cart {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.cart a {
+  text-decoration: none;
+  background-color: #818696;
+  color: white;
+  padding: 10px 100px;
+}
+
+.recommend {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.recommend h4 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.recommend .items {
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  margin-top: 10px;
+}
+.recommend .items .item1 {
+  margin-left: 10px;
+  width: 100%;
+}
+.recommend .items .item1 .img img {
+  width: 150px;
+  height: 120px;
+}
+.recommend .items p {
+  font-size: 10px;
+  color: #818696;
+}

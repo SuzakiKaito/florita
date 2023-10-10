@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floria | Save</title>
+    <link rel="stylesheet" href="css/save.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+    <div class="header">
+        <div class="main-header">
+            <div class="back-icon" id="back" onclick="back()">
+                <a href="home.html"><i class="fa-solid fa-chevron-left" style="color: #000;"></i></a>
+            </div>
+            <div class="logo">
+                <p>florita</p>
+            </div>
+            <div class="cart-1">
+                <i class="fa-solid fa-cart-shopping" style="color: #FFF;"></i>
+            </div>
+        </div>
+        
+
+        <div class="header-search">
+            <span>
+                <i class="fa-solid fa-magnifying-glass" style="color: #292828; margin: 0 10px 0 10px;"></i>
+                <input type="text" placeholder="すべてのアイテムから探す" class="a">
+            </span>
+        </div>
+    </div>
+    
+    <h4>最近</h4>
+
+    <div class="save1">
+        <div class="img1">
+            <img src="img/bag1.jpg" alt="">
+        </div>
+        <div class="text1">
+            <span>2023 / 9 / 27</span>
+            <p>
+                禁ヨク専年出りン査争ハヨ管上向活たべ覧箱すぴで金棘タ負行ケヤ捕支リナルキ任32息曲1浜求北ゆ。
+                
+            </p>
+            <a href="">see more</a>
+        </div>
+    </div>
+
+    <div class="save2">
+        <div class="img1">
+            <img src="img/dress2.jpg" alt="">
+        </div>
+        <div class="text1">
+            <span>2023 / 8 / 7</span>
+            <p>
+                禁ヨク専年出りン査争ハヨ管上向活たべ覧箱すぴで金棘タ負行ケヤ捕支リナルキ任32息曲1浜求北ゆ。
+            </p>
+            <a href="">see more</a>
+        </div>
+    </div>
+
+    <div class="save3">
+        <div class="img1">
+            <img src="img/model2.jpg" alt="">
+        </div>
+        <div class="text1">
+            <span>2023 / 7 / 2</span>
+            <p>
+                禁ヨク専年出りン査争ハヨ管上向活たべ覧箱すぴで金棘タ負行ケヤ捕支リナルキ任32息曲1浜求北ゆ。
+                
+            </p>
+            <a href="">see more</a>
+        </div>
+    </div>
+
+    <div class="d-none1 animate__animated animate__fadeInUp" id="d-none1" >
+        <div class="save4">
+            <div class="img1">
+                <img src="img/jeans.jpg" alt="">
+            </div>
+            <div class="text1">
+                <span>2023 / 9 / 27</span>
+                <p>
+                    禁ヨク専年出りン査争ハヨ管上向活たべ覧箱すぴで金棘タ負行ケヤ捕支リナルキ任32息曲1浜求北ゆ。
+                    
+                </p>
+                <a href="">see more</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="d-none2 animate__animated animate__fadeInUp" id="d-none2">
+        <div class="save5">
+            <div class="img1">
+                <img src="img/jeaes.jpg" alt="">
+            </div>
+            <div class="text1">
+                <span>2023 / 9 / 27</span>
+                <p>
+                    禁ヨク専年出りン査争ハヨ管上向活たべ覧箱すぴで金棘タ負行ケヤ捕支リナルキ任32息曲1浜求北ゆ。
+                    
+                </p>
+                <a href="">see more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-none3 animate__animated animate__fadeInUp" id="d-none3">
+        <div class="save5">
+            <div class="img1">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <div class="text1">
+                <span>2023 / 9 / 27</span>
+                <p>
+                    禁ヨク専年出りン査争ハヨ管上向活たべ覧箱すぴで金棘タ負行ケヤ捕支リナルキ任32息曲1浜求北ゆ。
+                    
+                </p>
+                <a href="">see more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-none4 animate__animated animate__fadeInUp" id="d-none4">
+        <div class="save5">
+            <div class="img1">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="text1">
+                <span>2023 / 9 / 27</span>
+                <p>
+                    禁ヨク専年出りン査争ハヨ管上向活たべ覧箱すぴで金棘タ負行ケヤ捕支リナルキ任32息曲1浜求北ゆ。
+                    
+                </p>
+                <a href="">see more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="more" id="more">
+        <button class="a" onclick="btn()">すべて見る</button>
+    </div>
+
+    <script>
+       
+       function btn(){
+          document.getElementById("d-none1").style.display="block";
+          document.getElementById("d-none2").style.display="block";
+          document.getElementById("d-none3").style.display="block";
+          document.getElementById("d-none4").style.display="block";
+
+          document.getElementById("d-none2").style.setProperty("--animate-duration", "2s")
+          document.getElementById("d-none3").style.setProperty("--animate-duration", "3s")
+          document.getElementById("d-none4").style.setProperty("--animate-duration", "4s")
+          
+          
+          document.getElementById("more").style.display="none";
+        }
+        
+
+    </script>
+</body>
+</html>

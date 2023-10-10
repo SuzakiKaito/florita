@@ -1,0 +1,211 @@
+$bgColor:#EAE6E6;
+
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 390px;
+    font-family:"A P-OTF Bunkyu MidasiM StdN";
+
+}
+header{
+    background-color:$bgColor;
+    width: 100%;
+    height: 400px;
+    .header_top{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        justify-content: center;
+        // flex-flow: column;
+        // flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        figure{
+            width: 300px;
+            height: 190px;
+            text-align: center;
+            img{
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+    }
+    .app_text{
+        color: #000;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 900;
+        display:inline-block;
+        padding-top: 30px;
+        line-height: 24px; /* 240% */
+    }
+    .app{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+}
+main{
+    width: 390px;
+    height: auto;
+}
+.content{
+    width: 100%;
+    height: 2230px;
+    background: #E4D7CF;
+    position: relative;
+    .box{
+
+        .abs{
+            width: 100%;
+            position: absolute;
+            top: -80px;
+            z-index: 10;
+        }
+        .flex{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 140px;
+        }
+        p{
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
+.point{
+    width: 330px;
+    height: 420px;
+    background: #EAE6E6;
+    border-radius: 35px;
+    margin: 80px auto 0;
+    position: relative;
+    img{
+        position: absolute;
+        top: -60px;
+        left: -30px;
+    }
+    h4{
+        text-align: center;
+        font-size: 1.4rem;
+        height: 20px;
+        padding-top: 50px;
+        // background: url(/images/waveline.png);
+        // background-repeat: no-repeat;
+        // background-position: 50% 100%;
+    }
+    .wave{
+        width: 220px;
+        height: 10px;
+        margin: 0 auto;
+        position: relative;
+        img{
+            width: 220px;
+            height: 10px;
+            position: absolute;
+            top: 18px;
+            left: 5px;
+        }
+    }
+    p{
+        width: 350px;
+        text-align: center;
+        padding-top: 40px;
+        padding-right: 5px;
+        font-size: 10px;
+        transform: scale(0.8);
+    }
+}
+.while{
+    margin-top:100px;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    h3{
+        font-size: 1.6rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+}
+.woman{
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    // top: 20px;
+}
+.line{
+    position: absolute;
+    left: 0;
+    margin-top: 30px;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background:$bgColor;
+    // display: flex;
+    // justify-content: center;
+    // position: relative;
+    .row{
+        width: 310px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 150px;
+        .column{
+            width: 220px;
+            height: 80px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                // transform: scale(0.9);
+                span{
+                    font-weight: bold;
+                    // transform: scale(1.2);
+                    // color: tomato;
+                }
+            }
+            .rows{
+                width: 190px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+    .flex{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // position: absolute;
+        // position: relative;
+        p{
+            width: 50px;
+            // width: 230px;
+            font-size: 1rem;
+            transform: scale(0.5);
+            margin-top: 40px;
+            // position: absolute;
+            // bottom: 10px;
+        }
+        .copy{
+            transform: scale(0.9);
+        }
+    }
+}
