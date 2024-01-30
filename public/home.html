@@ -1,248 +1,135 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>メイン画面</title>
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="css/ress.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floria | Item</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <h1>florita</h1>
-      <figure>
-        <img src="img/shopping-cart.png" alt="カート">
-      </figure>
-    </div>
-    <div class="search">
-      <input type="search" name="search" value="" placeholder="すべてのアイテムから探す">
-    </div>
-  </header>
-  <div class="find">
-    <a href="search.html"><img src="./img/lens.png" alt="検索"></a>
-  </div>
-  <main>
-    <div class="content swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <figure>
-            <img src="img/clothes01.png" alt="ワンピース">
-          </figure>
-          <div class="flex">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bookmark" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
-            </svg>
-            <figure class="icon">
-              <img src="img/comment.svg" alt="口コミ">
-            </figure>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share-3" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z" />
-            </svg>
-          </div>
 
-          <div class="item">
-            <div class="box5">
-              <h2>赤いワンピース</h2>
-              <h3>26,800円</h3>
+    <div class="header">
+        <div class="main-header">
+            <div class="back-icon">
+                <a href="index.html"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i></a>
             </div>
-            <p>パワショルのふくらみとスクエアネックが女性らしさを引き立てるニットワンピースで、一枚で存在感のあるアイテムです。
+            <div class="logo">
+                <p>florita</p>
+            </div>
+            <div class="cart-1">
+                <i class="fa-solid fa-cart-shopping" style="color: #FFF;"></i>
+            </div>
+        </div>
+        
 
-              <!-- 誰でも瞬時に全方位ウケする旬顔に！パワーショルダーワンピース<br> -->
+        <div class="header-search">
+            <p>
+                <i class="fa-solid fa-magnifying-glass" style="color: #292828; margin-right: 10px;"></i>
+                <input type="text" placeholder="すべてのアイテムから探す" class="a">
             </p>
-          </div>
-          <!-- <p>text</p> -->
         </div>
-        <div class="swiper-slide">
-          <figure>
-            <img src="img/mascara.jpg" alt="マスカラ">
-          </figure>
-          <div class="flex">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bookmark" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
-            </svg>
-            <figure class="icon">
-              <img src="img/comment.svg" alt="口コミ">
-            </figure>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share-3" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z" />
-            </svg>
-          </div>
-          
-          <div class="item">
-            <div class="box5">
-              <h2>赤いワンピース</h2>
-              <h3>26,800円</h3>
-            </div>
-            <p>パワショルのふくらみとスクエアネックが女性らしさを引き立てるニットワンピースで、一枚で存在感のあるアイテムです。
-              
-            </p>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <figure>
-            <img src="img/shoe3.jpg" alt="コンシーラーパレット">
-          </figure>
-          <div class="flex">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bookmark" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
-            </svg>
-            <figure class="icon">
-              <img src="img/comment.svg" alt="口コミ">
-            </figure>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share-3" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z" />
-            </svg>
-          </div>
-          
-          <div class="item">
-            <div class="box5">
-              <h2>赤いワンピース</h2>
-              <h3>26,800円</h3>
-            </div>
-            <p>パワショルのふくらみとスクエアネックが女性らしさを引き立てるニットワンピースで、一枚で存在感のあるアイテムです。
-              
-            </p>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <figure>
-            <img src="img/jeans..png" alt="ワンピース">
-          </figure>
-          <div class="flex">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bookmark" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
-            </svg>
-            <figure class="icon">
-              <img src="img/comment.svg" alt="口コミ">
-            </figure>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share-3" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z" />
-            </svg>
-          </div>
-          
-          <div class="item">
-            <div class="box5">
-              <h2>赤いワンピース</h2>
-              <h3>26,800円</h3>
-            </div>
-            <p>パワショルのふくらみとスクエアネックが女性らしさを引き立てるニットワンピースで、一枚で存在感のあるアイテムです。
-              
-            </p>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <figure>
-            <img src="img/concealer.avif" alt="コンシーラー">
-          </figure>
-          <div class="flex">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bookmark" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
-            </svg>
-            <figure class="icon">
-              <img src="img/comment.svg" alt="口コミ">
-            </figure>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share-3" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z" />
-            </svg>
-          </div>
-          
-          <div class="item">
-            <div class="box5">
-              <h2>赤いワンピース</h2>
-              <h3>26,800円</h3>
-            </div>
-            <p>パワショルのふくらみとスクエアネックが女性らしさを引き立てるニットワンピースで、一枚で存在感のあるアイテムです。
-              
-            </p>
-          </div>
-        </div>
-
-        <div class="modal">
-          <div class="box">
-            <figure>
-              <img src="img/makeup.png" alt="メイク道具">
-            </figure>
-            <h2 class="box2">florita</h2>
-            <h3 class="box3">text</h3>
-            <div class="box4">
-              <figure>
-                <img src="img/arrow.png" alt="矢印">
-              </figure>
-              <p>縦のスライドで商品の切り替えができます</p>
-            </div>
-            <div class="button">
-              <button>OK</button>
-            </div>
-            <div class="check">
-              <input type="checkbox">
-              <p>次回から表示しない</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
 
-  </main>
-  <footer>
-    <div>
-      <figure class="icon bookmark">
-        <a href="save.html"><img src="img/iconBookmark.svg" alt="ブックマークアイコン"></a>
-      </figure>
+    <div class="main-img">
+        <img src="img/jeaes.jpg" alt="モデル写真">
     </div>
-    <div class="box">
-      <figure class="icon home">
-        <img src="img/house.svg" alt="ホームアイコン">
-      </figure>
+
+    <div class="main-text">
+        <h3>ダメージデニムパンツ</h3>
+        <p class="sub-text">
+            ウォッシュ・ダメージ加工の入ったブルーデニムパンツ。
+            裾をだぼっと溜めて穿くのがオススメなアイテム。
+            ベルトやキーホルダーなどでワンポイント入れても相性〇
+            ※モデル画像は照明などの影響により実際の商品と異なる場合がございます。
+        </p>
+
+        <div class="color">
+            <h4>Color</h4>
+            <ul>
+                <li class="pink"></li>
+                <li class="red"></li>
+                <li class="black"></li>
+            </ul>
+        </div>
+        
+
+        <div class="size">
+            <h4>Size</h4>
+            <ul>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+            </ul>
+        </div>
+
+        
     </div>
-    <div>
-      <figure class="icon account">
-        <a href="account.html"><img src="img/account.svg" alt="アカウントアイコン"></a>
-      </figure>
+
+    <div class="cart">
+        <div class="cart1">
+            
+            <a href="#">
+                <i class="fa-solid fa-cart-shopping" style="margin-right: 10px;"></i>
+                カートに入れる
+            </a>
+        </div>
+
     </div>
-  </footer>
-  <script src="js/swiper.js"></script>
-  <script src="js/home.js"></script>
+
+    <div class="recommend">
+        <h4>おすすめ商品</h4>
+
+        <div class="items">
+            <div class="item1 animate__animated animate__fadeInUp">
+                <div class="img">
+                    <img src="img/2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h5>
+                        Clinique
+                    </h5>
+                    <p>
+                        ECCコンピュータ専門学校
+                    </p>
+                </div>
+            </div>
+
+            <div class="item1 animate__animated animate__fadeInUp">
+                <div class="img">
+                    <img src="img/shoe3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h5>
+                        L'oreal
+                    </h5>
+                    <p>
+                        ECCコンピュータ専門学校
+                    </p>
+                </div>
+            </div>
+
+            <div class="item1 animate__animated animate__fadeInUp">
+                <div class="img">
+                    <img src="img/3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h5>
+                        Estée Lauder
+                    </h5>
+                    <p>
+                        ECCコンピュータ専門学校
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
 </body>
 </html>
-
-
-
-<div>
-  <img src="" alt="">
-</div>
